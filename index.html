@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJchat App with Socket.io</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <!-- Include the Socket.io client library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="quick_chat_logo.svg" alt="">
+        <h1>Welcome to Aj Quick Chat</h1>
+    </nav>
+    <div class="container">
+        <div class="message right">Anjesh: How are you?</div>
+        <div class="message left">Harry: I am good bro, How about you?</div>
+        <div class="message left">Harry left the chat</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinput" id="messageinput">
+            <button class="btn" type="submit">send</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
